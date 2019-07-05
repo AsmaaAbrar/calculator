@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.button{
+width:50px;
+height:50px;
+font-size: 25px;
+cursor: pointer;
+background-color: #363636;
+border:none;
+color: white;
+}
+.textView{
+  width:196px;
+  height: 40px;
+  margin:2px;
+  font-size: 25px;
+  padding:5px;
+  text-align: center;
+  background-color:#000000f2;
+  border: none;
+  color: white;
+
+}
+.main{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translateX(-50%) translateY(-50%);
+  box-shadow: 1px 1px 20px 0px #fd1a22;
+  transition: all 0.5s;
+      background-color: black;
+}
+.main:hover{
+  box-shadow: 1px 1px 20px 20px #fd1a22;
+}
+
+body{
+font-family: sans-serif;
+background-image: url(abstract-red-gray-arrow-dark-square_33869-110.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+height: 100vh;
+background-position: center;
+}
+tr:nth-of-type(1) td:nth-of-type(1) .button{
+  background-color:red;
+}
+tr:nth-of-type(1) td:nth-of-type(1) .button:hover{
+  background-color:#860808;
+}
+tr:nth-of-type(2) td:nth-of-type(4) .button{
+  background-color:#1f1d1db8;
+}
+tr:nth-of-type(3) td:nth-of-type(4) .button{
+  background-color:#1f1d1db8;
+}
+tr:nth-of-type(4) td:nth-of-type(4) .button{
+  background-color:#1f1d1db8;
+}
+tr:nth-of-type(1) .button{
+  background-color:#1f1d1db8;
+}
+
+.black_groound{
+  background-color:black;
+}
